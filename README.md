@@ -171,7 +171,7 @@ Exploratory Data Analysis was performed to identify patterns in delivery perform
 
 This analysis compares delivery performance across different shipment modes such as Ship, Flight, and Road.
 
-![Shipment Mode vs Delivery Status](screenshots/01_mode_vs_delivery_status.png)
+![Shipment Mode vs Delivery Status](screenshots/mode_vs_delivery_status.png)
 
 ### Business Insight
 
@@ -196,7 +196,7 @@ Instead of choosing shipment methods only based on routine or assumption, the or
 
 This analysis checks whether product weight has an impact on delivery delays.
 
-![Product Weight vs Delivery Status](screenshots/02_weight_vs_delivery_status.png)
+![Product Weight vs Delivery Status](screenshots/weight_vs_delivery_status.png)
 
 ### Business Insight
 
@@ -224,7 +224,7 @@ The organisation can reduce avoidable delays by treating heavy products as a spe
 
 This analysis compares delivery performance across different warehouse blocks.
 
-![Warehouse Delivery Status](screenshots/03_warehouse_delivery_status.png)
+![Warehouse Delivery Status](screenshots/warehouse_delivery_status.png)
 
 ### Business Insight
 
@@ -252,7 +252,7 @@ The organisation can improve operational efficiency by identifying performance g
 
 This heatmap shows how shipment modes are used across warehouse blocks for on-time deliveries.
 
-![Warehouse Mode Heatmap](screenshots/04_warehouse_mode_heatmap.png)
+![Warehouse Mode Heatmap](screenshots/warehouse_mode_heatmap.png)
 
 ### Business Insight
 
@@ -280,7 +280,7 @@ The organisation can make more informed logistics decisions by understanding the
 
 A correlation matrix was created to understand relationships between numerical features.
 
-![Correlation Matrix](screenshots/05_correlation_matrix.png)
+![Correlation Matrix](screenshots/correlation_matrix.png)
 
 ### Business Insight
 
@@ -333,7 +333,7 @@ The purpose of the model is to predict shipment delivery status based on availab
 
 This type of model can help an organisation identify shipments that may be at risk of delay before the delay actually happens.
 
-![SVM Confusion Matrix](screenshots/06_svm_confusion_matrix.png)
+![SVM Confusion Matrix](screenshots/svm_confusion_matrix.png)
 
 ### Business Insight
 
@@ -537,12 +537,12 @@ shipment-delivery-performance-analysis/
 │   └── Shipment_Delivery_Performance_Report.pdf
 │
 ├── screenshots/
-│   ├── 01_mode_vs_delivery_status.png
-│   ├── 02_weight_vs_delivery_status.png
-│   ├── 03_warehouse_delivery_status.png
-│   ├── 04_warehouse_mode_heatmap.png
-│   ├── 05_correlation_matrix.png
-│   └── 06_svm_confusion_matrix.png
+│   ├── mode_vs_delivery_status.png
+│   ├── weight_vs_delivery_status.png
+│   ├── warehouse_delivery_status.png
+│   ├── warehouse_mode_heatmap.png
+│   ├── correlation_matrix.png
+│   └── svm_confusion_matrix.png
 │
 └── src/
     └── future reusable scripts
